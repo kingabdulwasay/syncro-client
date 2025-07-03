@@ -46,7 +46,7 @@
         loggedIn.room =  roomName.value.trim()
         localStorage.setItem('user', JSON.stringify(loggedIn))
         roomName.value = ''
-        window.location.replace('http://127.0.0.1:5500/video.html')
+        window.location.replace('video.html')
 
     })
 })
